@@ -101,6 +101,9 @@ class UserController extends Controller
 
     }
 
+    /**
+     * Update user
+     */
     public function update(Request $request): Response
     {
         $input    = $request->all();
